@@ -1,0 +1,11 @@
+Incident_ID,Priority,Status
+INC0001,High,Open
+INC0002,Low,Closed
+INC0003,Medium,Resolved
+INC0004,Critical,In Progress
+INC0005,Low,Open
+INC0006,High,Closed
+INC0007,Medium,Resolved
+INC0008,Low,Open
+INC0009,High,Closed
+INC0010,Critical,In Progress
