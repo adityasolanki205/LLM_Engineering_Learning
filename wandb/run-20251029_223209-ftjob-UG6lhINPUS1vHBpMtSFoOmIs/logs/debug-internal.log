@@ -4,3 +4,11 @@
 {"time":"2025-10-29T22:32:11.6781109+05:30","level":"INFO","msg":"writer: started","stream_id":"ftjob-UG6lhINPUS1vHBpMtSFoOmIs"}
 {"time":"2025-10-29T22:32:11.6781109+05:30","level":"INFO","msg":"sender: started","stream_id":"ftjob-UG6lhINPUS1vHBpMtSFoOmIs"}
 {"time":"2025-10-29T22:32:11.6781109+05:30","level":"INFO","msg":"handler: started","stream_id":"ftjob-UG6lhINPUS1vHBpMtSFoOmIs"}
+{"time":"2025-10-29T22:57:34.9136629+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-10-29T22:57:45.2343819+05:30","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-10-29T22:57:47.4060564+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-metadata","runtime_seconds":1.418627},{"desc":"uploading config.yaml","runtime_seconds":0.2691174,"progress":"3.2KB/3.2KB"}],"total_operations":2}}
+{"time":"2025-10-29T22:57:49.234343+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-29T22:57:49.6248406+05:30","level":"INFO","msg":"stream: closing","id":"ftjob-UG6lhINPUS1vHBpMtSFoOmIs"}
+{"time":"2025-10-29T22:57:49.6257424+05:30","level":"INFO","msg":"handler: closed","stream_id":"ftjob-UG6lhINPUS1vHBpMtSFoOmIs"}
+{"time":"2025-10-29T22:57:49.6257424+05:30","level":"INFO","msg":"sender: closed","stream_id":"ftjob-UG6lhINPUS1vHBpMtSFoOmIs"}
+{"time":"2025-10-29T22:57:49.6257424+05:30","level":"INFO","msg":"stream: closed","id":"ftjob-UG6lhINPUS1vHBpMtSFoOmIs"}

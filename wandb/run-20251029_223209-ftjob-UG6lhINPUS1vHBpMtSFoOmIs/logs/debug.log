@@ -22,3 +22,16 @@ config: {'_wandb': {}}
 2025-10-29 22:32:20,867 INFO    MainThread:7844 [wandb_run.py:_redirect():2411] Wrapping output streams.
 2025-10-29 22:32:20,868 INFO    MainThread:7844 [wandb_run.py:_redirect():2434] Redirects installed.
 2025-10-29 22:32:20,875 INFO    MainThread:7844 [wandb_init.py:init():1075] run started, returning control to user process
+2025-10-29 22:57:24,054 INFO    MainThread:7844 [wandb_run.py:_config_callback():1380] config_cb None None {'id': 'ftjob-UG6lhINPUS1vHBpMtSFoOmIs', 'created_at': '2025-10-29 22:30:08', 'error': {'code': None, 'message': None, 'param': None}, 'fine_tuned_model': 'ft:gpt-4o-mini-2024-07-18:personal:pricer:CW3yj3CJ', 'finished_at': '2025-10-29 22:40:23', 'hyperparameters': {'batch_size': 1, 'learning_rate_multiplier': 1.8, 'n_epochs': 1}, 'model': 'gpt-4o-mini-2024-07-18', 'object': 'fine_tuning.job', 'organization_id': 'org-pTIl3RoKleqyX7UySR2wdKmZ', 'result_files': 'file-8kZ1waDPgBzWAtnwt4qtNX', 'seed': 42, 'status': 'succeeded', 'trained_tokens': 39031, 'training_file': 'file-TgLH9qBmePv74QwwLAEaro', 'validation_file': 'file-TdnojezuWypb6TC9VNoCyh', 'estimated_finish': None, 'integrations': ["FineTuningJobWandbIntegrationObject(type='wandb', wandb=FineTuningJobWandbIntegration(project='gpt-pricer', entity=None, name=None, tags=None, run_id='ftjob-UG6lhINPUS1vHBpMtSFoOmIs'))"], 'metadata': None, 'method': "Method(type='supervised', dpo=None, reinforcement=None, supervised=SupervisedMethod(hyperparameters=SupervisedHyperparameters(batch_size=1, learning_rate_multiplier=1.8, n_epochs=1)))", 'user_provided_suffix': 'pricer', 'usage_metrics': None, 'shared_with_openai': False, 'eval_id': None}
+2025-10-29 22:57:28,353 INFO    MainThread:7844 [wandb_run.py:_config_callback():1380] config_cb None None {'n_train': 200}
+2025-10-29 22:57:39,508 INFO    MainThread:7844 [wandb_run.py:_config_callback():1380] config_cb None None {'n_valid': 50}
+2025-10-29 22:57:46,389 INFO    MainThread:7844 [wandb_run.py:_finish():2260] finishing run aditya-solanki205-deloitte/gpt-pricer/ftjob-UG6lhINPUS1vHBpMtSFoOmIs
+2025-10-29 22:57:46,390 INFO    MainThread:7844 [jupyter.py:save_history():480] not saving jupyter history
+2025-10-29 22:57:46,390 INFO    MainThread:7844 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2025-10-29 22:57:46,390 INFO    MainThread:7844 [wandb_init.py:_jupyter_teardown():607] cleaning up jupyter logic
+2025-10-29 22:57:46,390 INFO    MainThread:7844 [wandb_run.py:_atexit_cleanup():2459] got exitcode: 0
+2025-10-29 22:57:46,390 INFO    MainThread:7844 [wandb_run.py:_restore():2441] restore
+2025-10-29 22:57:46,391 INFO    MainThread:7844 [wandb_run.py:_restore():2447] restore done
+2025-10-29 22:57:49,615 INFO    MainThread:7844 [wandb_run.py:_footer_history_summary_info():3895] rendering history
+2025-10-29 22:57:49,615 INFO    MainThread:7844 [wandb_run.py:_footer_history_summary_info():3927] rendering summary
+2025-10-29 22:57:49,617 INFO    MainThread:7844 [wandb_run.py:_footer_sync_info():3856] logging synced files
